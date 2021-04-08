@@ -1,0 +1,183 @@
+
+/*Strat gloabal*/
+*{
+    -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+     box-sizing:border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-image: url("img/photo-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1200px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+}
+
+.clear{
+    clear: both;
+}
+/*End gloabal*/
+
+
+
+/*Strat Navbar*/
+.navbar{
+    font-size: 30px;
+    float: right;
+    margin: 10px;
+}
+.Main{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    background: white;
+    padding: 10px 20px;
+    margin-bottom: 18px;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    outline: none;
+
+}
+.Main:hover{
+    color: #950000;
+}
+
+ul{
+    margin-right: 0;
+    margin-left: auto;
+    display: none;
+}
+.li_style{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding:5px;
+    color: black;
+    background: white;
+    padding: 10px 40px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: center;
+} 
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    color: #950000;
+}
+.navbar a:hover{
+   color: #950000;
+}
+/*End Navbar*/
+
+/*Strat Card*/
+.card{
+    margin: 60px;
+    background-color: black;
+    opacity: 60%;
+    text-transform: uppercase;
+    width: 25%;
+    height: 200px;
+
+}
+.word{
+    padding: 10px;
+    opacity: 1;
+}
+.word h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color:#ffffff;
+}
+.word h4{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color:#ffffff;
+}
+/*End Card*/
+
+/*strat ifon*/
+.info{
+    float: right;
+    margin-top: 50px;
+    margin-right: 60px;
+    width: 40%;
+}
+.info h2{
+    font-size: 3.4rem;
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+.word-card{
+    background-color: black;
+    opacity: 60%;
+    padding: 20px;
+}
+.word-card p{
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #c5c7c6;
+    line-height: 1.8
+
+}
+
+
+.read-more{
+    background-color: white;
+    padding: 15px 30px;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.read-more a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+}
+.read-more a:hover{
+    color: #950000;
+ }
+ 
+/*End info*/
+
+/*strat footer*/
+.footer{
+    margin-top: 100px;
+    margin-left: 25px;
+    padding: 0;
+}
+.footer img{
+    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.footer p{
+    margin: 0;
+}
+/*end footer*/
